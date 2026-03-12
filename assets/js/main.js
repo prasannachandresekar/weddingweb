@@ -47,31 +47,12 @@ document.addEventListener('DOMContentLoaded', () => {
         });
 
         scrollTopBtn.addEventListener('click', () => {
-            const originalPosition = window.scrollY; // 1. Store current position
-            window.scrollTo(0, 0); // 2. Instantly jump to top
-            
-            const duration = 1000; // ms for the fall animation
-            let startTime = null;
 
-            function fallAnimation(currentTime) {
-                if (startTime === null) startTime = currentTime;
-                const timeElapsed = currentTime - startTime;
-                
-                // Normalized time (0 to 1)
-                const t = Math.min(timeElapsed / duration, 1);
-                
-                // Ease-in Cubic: t^3 (starts slow, accelerates)
-                const currentPos = originalPosition * Math.pow(t, 3);
-                
-                window.scrollTo(0, currentPos);
-                
-                if (t < 1) {
-                    requestAnimationFrame(fallAnimation);
-                }
-            }
 
-            // 3. Animate falling downward from top back to the previous scroll position
-            requestAnimationFrame(fallAnimation);
+            window.scrollTo({
+                top: 0,
+                behavior: 'smooth'
+            });
         });
     }
 
