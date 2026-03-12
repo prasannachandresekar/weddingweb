@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home 2 | WeddingBrand</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+
+    <!-- Header (Same as index) -->
+    <header>
+        <nav class="navbar navbar-expand-lg fixed-top">
+            <div class="container">
+                <a class="navbar-brand d-flex align-items-center" href="index.html">
+                    <img src="assets/images/logo.svg" alt="logo" height="40"
+                        onerror="this.src='https://placehold.co/40x40?text=Logo'">
+
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas"
+                    data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar"
+                    aria-labelledby="offcanvasNavbarLabel">
+                    <div class="offcanvas-header">
+                        <h5 class="offcanvas-title" id="offcanvasNavbarLabel">WeddingBrand</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                    </div>
+                    <div class="offcanvas-body">
+                        <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                            <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                            <li class="nav-item"><a class="nav-link" href="home2.html">Home2</a></li>
+                            <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+                            <li class="nav-item"><a class="nav-link" href="services.html">Services</a></li>
+                            <li class="nav-item"><a class="nav-link" href="portfolio.html">Portfolio</a></li>
+                            <li class="nav-item"><a class="nav-link" href="blog.html">Blog</a></li>
+                            <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main style="margin-top: 80px;">
+        <!-- Hero Section -->
+        <section class="hero-split">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-lg-6 reveal reveal-slide-up">
+                        <h1 class="display-3 mb-4">Your Wedding, Our Expertise</h1>
+                        <p class="lead mb-5 text-muted">Discover a new way of celebrating love with our modern planning
+                            tools and creative design approach.</p>
+                        <a href="#services-grid"
+                            class="btn btn-primary btn-lg px-5 py-3 rounded-pill text-white">Explore Services</a>
+                    </div>
+                    <div class="col-lg-6 mt-5 mt-lg-0 reveal reveal-zoom-in">
+                        <div class="hero-img-box">
+                            <img src="assets/images/imageh21.jpg" alt="Modern Wedding" class="img-fluid">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Services Grid -->
+        <section id="services-grid" class="services-grid">
+            <div class="container">
+                <div class="section-title">
+                    <h2>Our Specialized Services</h2>
+                </div>
+                <div class="row g-4">
+                    <div class="col-md-6 col-lg-3 text-center">
+                        <div class="card h-100 p-4">
+                            <div class="mb-3 text-primary h1"><i class="bi bi-camera-reels"></i></div>
+                            <h4>Videography</h4>
+                            <p>Cinematic films that tell your love story in motion.</p>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-3 text-center">
+                        <div class="card h-100 p-4">
+                            <div class="mb-3 text-primary h1"><i class="bi bi-music-note-beamed"></i></div>
+                            <h4>Entertainment</h4>
+                            <p>Premium DJs and live bands for a night to remember.</p>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-3 text-center">
+                        <div class="card h-100 p-4">
+                            <div class="mb-3 text-primary h1"><i class="bi bi-cup-straw"></i></div>
+                            <h4>Catering</h4>
+                            <p>Exquisite culinary experiences for you and your guests.</p>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-3 text-center">
+                        <div class="card h-100 p-4">
+                            <div class="mb-3 text-primary h1"><i class="bi bi-envelope-heart"></i></div>
+                            <h4>Invitations</h4>
+                            <p>Custom designed stationery for every wedding theme.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Recent Galleries Carousel -->
+        <section class="portfolio-preview bg-light">
+            <div class="container">
+                <div class="section-title text-center">
+                    <h2>Recent Galleries</h2>
+                </div>
+
+                <div id="galleryCarousel" class="carousel slide" data-bs-ride="carousel" data-bs-interval="5000">
+                    <div class="carousel-inner">
+                        <!-- Slide 1 -->
+                        <div class="carousel-item active">
+                            <div class="row g-4 px-5">
+                                <div class="col-md-4 col-12">
+                                    <div class="portfolio-item rounded">
+                                        <div class="img-box img-md">
+                                            <img src="assets/images/imageh22.jpg" alt="Wedding A">
+                                        </div>
+                                        <div class="portfolio-overlay">
+                                            <h3>Modern Style</h3>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-4 col-12">
+                                    <div class="portfolio-item rounded">
+                                        <div class="img-box img-md">
+                                            <img src="assets/images/imageh23.jpg" alt="Wedding B">
+                                        </div>
+                                        <div class="portfolio-overlay">
+                                            <h3>Rustic Charm</h3>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-4 col-12">
+                                    <div class="portfolio-item rounded">
+                                        <div class="img-box img-md">
+                                            <img src="assets/images/imageh24.jpg" alt="Wedding C">
+                                        </div>
+                                        <div class="portfolio-overlay">
+                                            <h3>Elegant Gala</h3>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Slide 2 -->
+                        <div class="carousel-item">
+                            <div class="row g-4 px-5">
+                                <div class="col-md-4 col-12">
+                                    <div class="portfolio-item rounded">
+                                        <div class="img-box img-md">
+                                            <img src="assets/images/imageh25.jpg" alt="Wedding D">
+                                        </div>
+                                        <div class="portfolio-overlay">
+                                            <h3>Vintage Vibe</h3>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-4 col-12">
+                                    <div class="portfolio-item rounded">
+                                        <div class="img-box img-md">
+                                            <img src="assets/images/imageh26.jpg" alt="Wedding E">
+                                        </div>
+                                        <div class="portfolio-overlay">
+                                            <h3>Seaside Vows</h3>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-4 col-12">
+                                    <div class="portfolio-item rounded">
+                                        <div class="img-box img-md">
+                                            <img src="assets/images/imageh27.jpg" alt="Wedding F">
+                                        </div>
+                                        <div class="portfolio-overlay">
+                                            <h3>Urban Chic</h3>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Controls -->
+                    <button class="carousel-control-prev" type="button" data-bs-target="#galleryCarousel"
+                        data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon bg-dark rounded-circle" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#galleryCarousel"
+                        data-bs-slide="next">
+                        <span class="carousel-control-next-icon bg-dark rounded-circle" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+            </div>
+        </section>
+
+        <!-- Team Section -->
+        <section class="team-section">
+            <div class="container">
+                <div class="section-title text-center">
+                    <h2>Meet Our Experts</h2>
+                </div>
+                <div class="row g-4 justify-content-center">
+                    <div class="col-md-4 col-lg-3">
+                        <div class="card text-center overflow-hidden">
+                            <div class="img-box img-square">
+                                <img src="assets/images/imageh28.jpg" alt="Team Member">
+                            </div>
+                            <div class="p-3">
+                                <h5>Anna Smith</h5>
+                                <p class="text-primary mb-0">Lead Planner</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-lg-3">
+                        <div class="card text-center overflow-hidden">
+                            <div class="img-box img-square">
+                                <img src="assets/images/imageh29.jpg" alt="Team Member">
+                            </div>
+                            <div class="p-3">
+                                <h5>John Doe</h5>
+                                <p class="text-primary mb-0">Senior Photographer</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-lg-3">
+                        <div class="card text-center overflow-hidden">
+                            <div class="img-box img-square">
+                                <img src="assets/images/imageh210.jpg" alt="Team Member">
+                            </div>
+                            <div class="p-3">
+                                <h5>Emily White</h5>
+                                <p class="text-primary mb-0">Event Stylist</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Blog Preview -->
+        <section class="blog-preview bg-light">
+            <div class="container">
+                <div class="section-title">
+                    <h2>Latest from Our Blog</h2>
+                </div>
+                <div class="row g-4">
+                    <div class="col-md-6 col-lg-4">
+                        <div class="card h-100 border-0 shadow-sm overflow-hidden">
+                            <div class="img-box img-sm">
+                                <img src="assets/images/imageh211.jpg" alt="">
+                            </div>
+                            <div class="card-body">
+                                <span class="text-muted small">Oct 12, 2026</span>
+                                <h5 class="card-title mt-2">10 Tips for the Perfect Beach Wedding</h5>
+                                <p class="card-text text-muted">A guide to making your seaside ceremony truly
+                                    unforgettable.</p>
+                                <a href="blog.html" class="btn btn-link p-0 text-primary">Read More</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4">
+                        <div class="card h-100 border-0 shadow-sm overflow-hidden">
+                            <div class="img-box img-sm">
+                                <img src="assets/images/imageh212.jpg" alt="">
+                            </div>
+                            <div class="card-body">
+                                <span class="text-muted small">Oct 08, 2026</span>
+                                <h5 class="card-title mt-2">Choosing Your Wedding Color Palette</h5>
+                                <p class="card-text text-muted">How to find the perfect colors that reflect your wedding
+                                    theme.</p>
+                                <a href="blog.html" class="btn btn-link p-0 text-primary">Read More</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4 mb-4 mb-lg-0">
+                        <div class="card h-100 border-0 shadow-sm overflow-hidden">
+                            <div class="img-box img-sm">
+                                <img src="assets/images/imageh213.jpg" alt="">
+                            </div>
+                            <div class="card-body">
+                                <span class="text-muted small">Oct 05, 2026</span>
+                                <h5 class="card-title mt-2">Unique Venue Ideas for 2026</h5>
+                                <p class="card-text text-muted">From historical castles to modern art galleries.</p>
+                                <a href="blog.html" class="btn btn-link p-0 text-primary">Read More</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- CTA Banner -->
+        <section class="cta-banner py-5 bg-primary text-white text-center">
+            <div class="container">
+                <h2 class="mb-4">Start Your Journey with Us</h2>
+                <a href="contact.html" class="btn btn-light btn-lg px-5 py-3 rounded-pill text-primary">Book
+                    Consultation</a>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer (Same as index) -->
+    <footer class="footer">
+        <div class="container">
+            <div class="row g-4">
+                <div class="col-lg-4 footer-logo">
+                    <img src="assets/images/logo.svg" alt="logo" height="40"
+                        onerror="this.src='https://placehold.co/40x40?text=Logo'">
+
+                    <p class="mt-3 text-muted">Creating timeless memories for your most special day.</p>
+                </div>
+                <div class="col-md-3 col-lg-2 footer-links">
+                    <h5>Quick Links</h5>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="portfolio.html">Portfolio</a></li>
+                        <li><a href="blog.html">Blog</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-3 col-lg-2 footer-links">
+                    <h5>Services</h5>
+                    <ul>
+                        <li><a href="services.html">Planning</a></li>
+                        <li><a href="services.html">Photography</a></li>
+                        <li><a href="services.html">Decoration</a></li>
+                        <li><a href="services.html">Catering</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <h5>Newsletter</h5>
+                    <form class="mt-3">
+                        <div class="input-group">
+                            <input type="email" class="form-control" placeholder="Your Email">
+                            <button class="btn btn-primary text-white" type="button">Join</button>
+                        </div>
+                    </form>
+                    <div class="mt-4">
+                        <h5>Contact Info</h5>
+                        <p class="text-muted">contact@weddingbrand.com</p>
+                    </div>
+                </div>
+            </div>
+            <hr class="mt-5 mb-4">
+            <div class="text-center text-muted small">
+                <p>&copy; 2026 WeddingBrand. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scroll to Top Button -->
+    <button id="scroll-to-top" title="Go to top">
+        <i class="bi bi-arrow-up"></i>
+    </button>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/js/main.js"></script>
+</body>
+
+</html>
